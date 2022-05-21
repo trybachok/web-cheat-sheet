@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    min-height: 50px;
+}
+
+article {
+    flex: 1 0 100%;
+}
+
+article a {
+    display: block;
+    padding: 10px 0;
+}
