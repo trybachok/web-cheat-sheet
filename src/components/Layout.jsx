@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import {Outlet} from "react-router";
 import './Layout.css';
 
@@ -8,15 +8,15 @@ const Layout = () => {
         <div>
             <main>
                 <nav>
-                    <Link to="/php">PHP</Link>
-                    <Link to="/db">Базы данных</Link>
-                    <Link to="/technologies">Технологии</Link>
-                    <Link to="/naumen">Naumen</Link>
-                    <Link to="/server">Сервер</Link>
-                    <Link to="/git">Git</Link>
-                    <Link to="/yii2">Yii2</Link>
-                    <Link to="/frontend">Frontend</Link>
-                    <Link to="/administration">Административный функционал</Link>
+                    <NavLink to="/php">PHP</NavLink>
+                    <NavLink to="/db">Базы данных</NavLink>
+                    <NavLink to="/technologies">Технологии</NavLink>
+                    <NavLink to="/naumen">Naumen</NavLink>
+                    <NavLink to="/server">Сервер</NavLink>
+                    <NavLink to="/git">Git</NavLink>
+                    <NavLink to="/yii2">Yii2</NavLink>
+                    <NavLink to="/frontend">Frontend</NavLink>
+                    <NavLink to="/administration">Административный функционал</NavLink>
                 </nav>
                 <article>
                     <Outlet/>

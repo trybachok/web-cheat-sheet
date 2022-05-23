@@ -1,5 +1,6 @@
 
 import {Link} from "react-router-dom";
+import {Outlet} from "react-router";
 
 const Db = () => {
     return (
@@ -8,7 +9,10 @@ const Db = () => {
             <Link to="/db/indexes">Индексы</Link>
             <Link to="/db/acid">ACID</Link>
             <Link to="/db/transaction-isolation-level">Уровни изолированности транзакций</Link>
+            <hr/>
+            <Outlet/>
         </div>
+
     );
 };
 

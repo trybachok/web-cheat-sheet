@@ -1,5 +1,6 @@
 
 import {Link} from "react-router-dom";
+import {Outlet} from "react-router";
 
 const Yii2 = () => {
     return (
@@ -7,6 +8,8 @@ const Yii2 = () => {
             <Link to="/yii2/modules">
                 Вынесение кода в модуль или расширение
             </Link>
+            <hr/>
+            <Outlet/>
         </div>
     );
 };

@@ -23,5 +23,11 @@ article {
 
 article a {
     display: block;
-    padding: 10px 0;
+    padding: 5px 0;
+}
+
+.active {
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
 }

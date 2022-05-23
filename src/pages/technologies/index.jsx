@@ -1,5 +1,6 @@
 
 import {Link} from "react-router-dom";
+import {Outlet} from "react-router";
 
 const Technologies = () => {
     return (
@@ -14,6 +15,8 @@ const Technologies = () => {
             <Link to="/technologies/dry">DRY</Link>
             <Link to="/technologies/slap">SLAP</Link>
             <Link to="/technologies/yagni">YAGNI</Link>
+            <hr/>
+            <Outlet/>
         </div>
     );
 };
