@@ -7,6 +7,14 @@ const Technologies = () => {
         <div>
             <Link to="/technologies/app-scale">Умение правильно расширять приложение</Link>
             <Link to="/technologies/refactor">Рефакторинг приложений</Link>
+            <hr/>
+            <a href="https://refactoring.guru/ru/refactoring/smells" target="_blank">Запахи кода</a>
+            <hr/>
+            <hr/>
+            <a href="https://refactoring.guru/ru/refactoring/techniques" target="_blank">
+                Приёмы рефакторинга
+            </a>
+            <hr/>
             <Link to="/technologies/architectures">Архитектуры приложения</Link>
             <Link to="/technologies/ddd">DDD - Domain Driven Design</Link>
             <Link to="/technologies/uml">UML</Link>
