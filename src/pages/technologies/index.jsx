@@ -1,4 +1,3 @@
-
 import {Link} from "react-router-dom";
 import {Outlet} from "react-router";
 
@@ -10,9 +9,16 @@ const Technologies = () => {
             <hr/>
             <a href="https://refactoring.guru/ru/refactoring/smells" target="_blank">Запахи кода</a>
             <hr/>
-            <hr/>
             <a href="https://refactoring.guru/ru/refactoring/techniques" target="_blank">
                 Приёмы рефакторинга
+            </a>
+            <hr/>
+            <a href="https://habr.com/ru/post/92570/" target="_blank">
+                GRASP
+            </a>
+            <hr/>
+            <a href="https://ru.wikipedia.org/wiki/GRASP" target="_blank">
+                GRASP Википедия
             </a>
             <hr/>
             <Link to="/technologies/architectures">Архитектуры приложения</Link>
