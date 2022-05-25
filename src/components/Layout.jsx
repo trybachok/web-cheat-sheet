@@ -16,7 +16,8 @@ const Layout = () => {
                     <NavLink to="/git">Git</NavLink>
                     <NavLink to="/yii2">Yii2</NavLink>
                     <NavLink to="/frontend">Frontend</NavLink>
-                    <NavLink to="/administration">Административный функционал</NavLink>
+                    <NavLink to="/administration">Админ</NavLink>
+                    <NavLink to="/questions">Вопросы</NavLink>
                 </nav>
                 <article>
                     <Outlet/>

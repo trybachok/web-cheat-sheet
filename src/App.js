@@ -41,6 +41,7 @@ import NewTechnologies from "./pages/administration/NewTechnologies";
 import Documentation from "./pages/administration/Documentation";
 import ProjectModel from "./pages/administration/ProjectModel";
 import CodeReview from "./pages/administration/CodeReview";
+import Questions from "./pages/Questions";
 
 
 function App() {
@@ -97,6 +98,7 @@ function App() {
                         <Route path="project-model" element={<ProjectModel/>}/>
                         <Route path="code-review" element={<CodeReview/>}/>
                     </Route>
+                    <Route path="/questions" element={<Questions/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Route>
             </Routes>
