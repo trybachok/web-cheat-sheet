@@ -1,6 +1,6 @@
-const NotFound = () => {
+const Questions = () => {
     return (
-        <div>
+        <div style={{height: '90%'}}>
             <ul>
                 <li>какие задачи выполняешь?</li>
                 <li>что изучила за последнее время?</li>
@@ -53,4 +53,4 @@ const NotFound = () => {
     );
 };
 
-export default NotFound;
+export default Questions;

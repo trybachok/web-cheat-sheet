@@ -42,6 +42,8 @@ import Documentation from "./pages/administration/Documentation";
 import ProjectModel from "./pages/administration/ProjectModel";
 import CodeReview from "./pages/administration/CodeReview";
 import Questions from "./pages/Questions";
+import GRASP from "./pages/technologies/GRASP";
+import CodeSmells from "./pages/technologies/CodeSmells";
 
 
 function App() {
@@ -64,6 +66,7 @@ function App() {
                     <Route path="technologies" element={<Technologies/>}>
                         <Route path="app-scale" element={<AppScale/>}/>
                         <Route path="refactor" element={<Refactor/>}/>
+                        <Route path="code-smells" element={<CodeSmells/>}/>
                         <Route path="architectures" element={<Architectures/>}/>
                         <Route path="ddd" element={<DDD/>}/>
                         <Route path="uml" element={<UML/>}/>
@@ -72,6 +75,7 @@ function App() {
                         <Route path="dry" element={<DRY/>}/>
                         <Route path="slap" element={<SLAP/>}/>
                         <Route path="yagni" element={<YAGNI/>}/>
+                        <Route path="grasp" element={<GRASP/>}/>
                     </Route>
                     <Route path="naumen" element={<Naumen/>}>
                         <Route path="diagnostic" element={<Diagnostic/>}/>

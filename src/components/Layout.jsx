@@ -6,8 +6,8 @@ import './Layout.css';
 const Layout = () => {
     return (
         <div>
-            <main>
-                <nav>
+            <main style={{position: "relative"}}>
+                <nav style={{position: "fixed", width: "100%"}}>
                     <NavLink to="/php">PHP</NavLink>
                     <NavLink to="/db">Базы данных</NavLink>
                     <NavLink to="/technologies">Технологии</NavLink>
@@ -19,7 +19,7 @@ const Layout = () => {
                     <NavLink to="/administration">Админ</NavLink>
                     <NavLink to="/questions">Вопросы</NavLink>
                 </nav>
-                <article>
+                <article style={{position:"fixed", marginTop: 60, height: "100%"}}>
                     <Outlet/>
                 </article>
             </main>
