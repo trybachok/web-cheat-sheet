@@ -1,6 +1,6 @@
 const Iterators = () => {
     return (
-        <div>
+        <div style={{marginBottom: 60}}>
             <b>В php итерируемыми сущностями являются массивы и объекты.</b>
             <h3>Итерация по массивам</h3>
             <p>
