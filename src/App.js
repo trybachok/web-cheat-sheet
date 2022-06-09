@@ -1,4 +1,5 @@
 import {Routes, Route} from "react-router";
+import StyledComponents from './pages/frontend/StyledComponents';
 import Php from "./pages/php";
 import Db from "./pages/db";
 import Layout from "./components/Layout";
@@ -92,6 +93,7 @@ function App() {
                     <Route path="frontend" element={<Frontend/>}>
                         <Route path="spa" element={<SPA/>}/>
                         <Route path="ui-ux" element={<UIUX/>}/>
+                        <Route path="styled-components" element={<StyledComponents/>}/>
                     </Route>
                     <Route path="administration" element={<Administration/>}>
                         <Route path="tasks" element={<Tasks/>}/>

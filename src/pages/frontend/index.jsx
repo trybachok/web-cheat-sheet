@@ -7,6 +7,7 @@ const Frontend = () => {
         <Page links={<div>
             <Link to="/frontend/spa">SPA</Link>
             <Link to="/frontend/ui-ux">UI/UX</Link>
+            <Link to="/frontend/styled-components">Styled Components</Link>
             <hr/>
         </div>}
               content={<Outlet/>}/>);
